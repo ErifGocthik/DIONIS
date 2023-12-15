@@ -1,0 +1,399 @@
+main > .container {
+    padding: 60px 15px 20px;
+}
+.footer {
+    background-color: #f5f5f5;
+    font-size: .9em;
+    height: 60px;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    content: '';
+    left: 3px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 2px 4px;
+    background: transparent;
+}
+
+a.asc:after {
+    border-bottom: solid 7px #212529;
+    border-top-width: 0;
+}
+
+a.desc:after {
+    border-top: solid 7px #212529;
+    border-bottom-width: 0;
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+.header_gradient_db_b_db
+{
+    background: linear-gradient(0deg, #3d2717, #523628,#3d2717);!important;
+    font-size: 36px;
+}
+.dionis
+{
+    font-family: Algerian, sans-serif;
+    font-size: 36px!important;
+}
+.header-navbar
+{
+    font-family: Georgia, sans-serif;
+    font-size: 18px;!important;
+}
+.georgia
+{
+    font-family: Georgia, sans-serif;
+    color: #3d291c;
+}
+.navbar
+{
+    --bs-navbar-brand-font-size: 48px!important;
+}
+
+.nav-link
+{
+    --bs-navbar-active-color: #ab9075!important;
+}
+.navbar-brand
+{
+    --bs-navbar-brand-color: #ab9075;
+    line-height: 7vh;
+}
+.navbar
+{
+    --bs-navbar-padding-y: 0;
+}
+.title
+{
+    font-family: Georgia, sans-serif;
+    color: #dcc6b8;
+}
+.event-title
+{
+    font-family: Georgia, sans-serif;
+    color: #3d291c;
+}
+.event-text
+{
+    font-family: Georgia, sans-serif;
+    color: #4f3727;
+}
+.btn-event
+{
+    background-color: #2a1608;
+    color: #dcc6b8;
+}
+.btn-event:hover
+{
+    background-color: #1a0d04;
+    color: #dcc6b8;
+}
+.btn-event:active
+{
+    background-color: #1a0d04;
+    color: #dcc6b8;
+
+    transform: scale(0.98);
+}
+.link
+{
+    font-family: Georgia, sans-serif;
+    color: #2a1608;
+
+    text-decoration: none;
+}
+.grid-item { width: 200px; }
+.grid-item--width2 { width: 400px; }
+.buy-ticket
+{
+    position: fixed;
+    z-index: 100;
+
+    top: 35px;
+
+    padding: 2.5% 0 0.5% 0;
+
+    border-radius: 0 0 5px 5px;
+
+    filter: grayscale(50%) drop-shadow(0 0 1px #2a1608);
+
+
+    transition: 160ms;
+}
+.buy-ticket a
+{
+    font-family: Georgia,sans-serif;
+    color: #dcc6b8;
+
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+}
+.buy-ticket:hover
+{
+    top: 45px;
+}
+.buy-ticket:active
+{
+    top:60px
+}
+.places
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+    font-family: "Century Gothic", sans-serif;
+
+    width: 80%;
+
+}
+.places-block
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+
+    text-align: center;
+
+    justify-items: center;
+    align-items: center;
+
+    width: 90%;
+}
+.places .places-block p
+{
+
+    width: 40px;
+    height: 55px;
+
+    padding: 25% 0;
+
+    background-color: #a3e8a6;
+    border: 3px solid #6fe177;
+    border-radius: 15%;
+
+    cursor: pointer;
+
+    user-select: none;
+
+    transition: 300ms;
+}
+.places .places-block p:hover
+{
+    padding: 15% 0 35% 0;
+
+    transition: 160ms;
+}
+.places .places-block p:active
+{
+    padding: 35% 0 15% 0;
+
+    transition: 60ms;
+}
+#gr-scale-100
+{
+    filter: grayscale(100%)!important;
+    pointer-events: none;
+}
+.messenger
+{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+
+    position: fixed;
+
+    top: 55vh;
+    left: 77.1vw;
+
+    border: 1px solid black;
+
+    width: 350px;
+
+    background-color: white;
+}
+.messenger-form
+{
+    height: 45px;
+}
+.messenger-group
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.messenger-group .form-group #message-message
+{
+    appearance: none;
+    width: 298px;
+    height: 45px;
+
+    padding-left: 15px;
+
+    border: none;
+}
+.messenger-group .form-group #message-message:focus
+{
+    border: none;
+    filter: none;
+
+    outline: none;
+
+    border-radius: 0;
+}
+.messenger-group .form-group
+{
+    height: 100%;
+}
+.messenger-group button
+{
+    height: 48px;
+    width: 50px;
+
+    appearance: none;
+
+    outline: none;
+    border: none;
+}
+.messenger .window
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    align-content: end;
+    flex-wrap: wrap;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    background-color: gray;
+
+    height: 290px;
+    width: 100%;
+}
+.messenger .window .message
+{
+    min-height: 30px;
+    width: 100%;
+}
+.messenger .window .sender
+{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+
+    width: 100%;
+
+    padding: 1%;
+}
+.messenger .window .recipient
+{
+    display: flex;
+    justify-content: end;
+    align-content: center;
+
+    width: 100%;
+
+    padding: 1%;
+}
+.messenger .window .sender p
+{
+    width: 250px;
+    background-color: #dcc6b8;
+
+    border: 3px solid #79604e;
+    border-radius: 5px;
+
+    font-family: Georgia, sans-serif;
+
+    padding: 2% 3%;
+
+    min-height: 45px;
+    margin: 1%;
+
+    overflow-wrap: break-word;
+}
+.messenger .window .recipient p
+{
+    width: 250px;
+    background-color: #dcc6b8;
+
+    border: 3px solid #79604e;
+    border-radius: 5px;
+
+    font-family: Georgia, sans-serif;
+
+    padding: 2% 3%;
+
+    min-height: 45px;
+    margin: 1%;
+
+    overflow-wrap: break-word;
+}
+.messenger .window::-webkit-scrollbar
+{
+    display: none;
+}
