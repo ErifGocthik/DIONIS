@@ -34,7 +34,7 @@
 
             });
             $('.btn-post').click(function (e) {
-                e.preventDefault();
+                // e.preventDefault();
                 if (places_array.length != 0) {
                     var param = $('meta[name="csrf-param"]').attr("content");
                     var token = $('meta[name="csrf-token"]').attr("content");

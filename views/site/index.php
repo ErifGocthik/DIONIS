@@ -60,7 +60,7 @@ $this->title = 'DIONIS';
         </div>
     <?php } ?>
 </div>
-<div class="georgia w-100 d-flex justify-content-center align-content-center" style="filter: hue-rotate(180deg) saturate(30%)">
+    <div class="georgia w-100 d-flex justify-content-center align-content-center" style="filter: hue-rotate(180deg) saturate(30%)">
     <?php
     echo LinkPager::widget([
         'pagination' => $pages,

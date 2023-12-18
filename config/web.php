@@ -51,10 +51,10 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules'=>
-            [
-                'site/index' => 'site/index',
-            ]
+//            'rules'=>
+//            [
+//                'site/index' => 'site/index',
+//            ]
         ],
     ],
     'params' => $params,
